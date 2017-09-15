@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangDefaultPages_Example' do
+  pod 'YangDefaultPages', :path => '../'
+
+  target 'YangDefaultPages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
