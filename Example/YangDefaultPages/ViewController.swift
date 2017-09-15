@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import YangDefaultPages
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        self.showFailedPage()
+        self.showNoNetworkPage { [weak self] defaultView in
+            self?.showLoading()
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,6 @@
+framework module YangDefaultPages {
+  umbrella header "YangDefaultPages-umbrella.h"
+
+  export *
+  module * { export * }
+}
