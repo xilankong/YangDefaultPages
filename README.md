@@ -22,20 +22,20 @@ yang / 851384557@qq.com
 
 Loading：
 
-![301](https://github.com/xilankong/YangDefaultPages/tree/master/image/301.gif)
+![301](image/301.gif)
 
 丢失页：
 
-![one](https://github.com/xilankong/YangDefaultPages/tree/master/image/two.png)
+![one](image/two.png)
 
 失败页：
 
-![one](https://github.com/xilankong/YangDefaultPages/tree/master/image/one.png)
+![one](image/one.png)
 
 无网络页：
 
-![three](https://github.com/xilankong/YangDefaultPages/tree/master/image/three.png)
+![three](image/three.png)
 
 无数据页：
 
-![four](https://github.com/xilankong/YangDefaultPages/tree/master/image/four.png)
+![four](image/four.png)
