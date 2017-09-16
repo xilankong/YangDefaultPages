@@ -12,7 +12,7 @@ extension UIView {
     
     open func showFullLoading() {
         
-        var oldLoading = self.viewWithTag(_fullLoadingTag)
+        let oldLoading = self.viewWithTag(_fullLoadingTag)
         if oldLoading != nil {
             oldLoading?.removeFromSuperview()
         }
@@ -21,22 +21,22 @@ extension UIView {
         gifBgView.backgroundColor = UIColor.white
         self.addSubview(gifBgView)
         
-        let gifPath = defaultPageBundle.path(forResource: "loading2", ofType: "gif")
+        let gifPath = defaultPageBundle.path(forResource: "301", ofType: "gif")
         let gifView = FLAnimatedImageView()
         gifView.contentMode = UIViewContentMode.scaleAspectFill
         gifView.clipsToBounds = true
         gifView.backgroundColor = UIColor.clear
-        gifView.frame = CGRect(x: 0, y: 0, width: 300, height: 300 * _imageScale)
+        gifView.frame = CGRect(x: 0, y: 0, width: 200, height: 200 * (300 / 400.0))
         gifView.center = CGPoint(x: ViewW(gifBgView) / 2.0, y: ViewH(gifBgView) / 2.0 * (2 / 3.0))
         gifBgView.addSubview(gifView)
         
         let data = NSData(contentsOfFile: gifPath ?? "")
-        let gifImage = FLAnimatedImage(animatedGIFData: (data as? Data) ?? Data())
+        let gifImage = FLAnimatedImage(animatedGIFData: (data as Data?) ?? Data())
         gifView.animatedImage = gifImage
     }
     
     open func hideFullLoading() {
-        var oldLoading = self.viewWithTag(_fullLoadingTag)
+        let oldLoading = self.viewWithTag(_fullLoadingTag)
         if oldLoading != nil {
             oldLoading?.removeFromSuperview()
         }

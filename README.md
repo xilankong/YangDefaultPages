@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/YangDefaultPages.svg?style=flat)](http://cocoapods.org/pods/YangDefaultPages)
 [![Platform](https://img.shields.io/cocoapods/p/YangDefaultPages.svg?style=flat)](http://cocoapods.org/pods/YangDefaultPages)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 YangDefaultPages is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,9 +16,26 @@ pod 'YangDefaultPages'
 
 ## Author
 
-xilankong, 851384557@qq.com
+yang / 851384557@qq.com
 
-## License
-
-YangDefaultPages is available under the MIT license. See the LICENSE file for more info.
 # YangDefaultPages
+
+Loading：
+
+![301](/Users/huangyang/Desktop/workplace/YangDefaultPages/image/301.gif)
+
+丢失页：
+
+![one](/Users/huangyang/Desktop/workplace/YangDefaultPages/image/two.png)
+
+失败页：
+
+![one](/Users/huangyang/Desktop/workplace/YangDefaultPages/image/one.png)
+
+无网络页：
+
+![three](/Users/huangyang/Desktop/workplace/YangDefaultPages/image/three.png)
+
+无数据页：
+
+![four](/Users/huangyang/Desktop/workplace/YangDefaultPages/image/four.png)

@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.showFailedPage()
-        self.showNoNetworkPage { [weak self] defaultView in
-            self?.showLoading()
-        }
+        self.showLoading()
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { 
+//            self.showNoDataPage()
+//        }
     }
 
     override func didReceiveMemoryWarning() {
