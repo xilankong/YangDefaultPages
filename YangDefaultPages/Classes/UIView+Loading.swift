@@ -33,6 +33,18 @@ extension UIView {
         let data = NSData(contentsOfFile: gifPath ?? "")
         let gifImage = FLAnimatedImage(animatedGIFData: (data as Data?) ?? Data())
         gifView.animatedImage = gifImage
+        
+        let textLabel = UILabel()
+        gifBgView.addSubview(textLabel)
+        textLabel.text = loading
+        textLabel.font = UIFont.systemFont(ofSize: 15)
+        textLabel.textAlignment = NSTextAlignment.center
+        textLabel.textColor = titleColor
+        textLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(gifView.snp.bottom).offset(20)
+            make.leading.trailing.equalTo(self)
+            make.centerX.equalTo(self)
+        }
     }
     
     open func hideFullLoading() {

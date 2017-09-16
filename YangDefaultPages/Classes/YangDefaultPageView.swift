@@ -11,8 +11,6 @@ import SnapKit
 class YangDefaultPageView: UIView {
     let buttonMargin: CGFloat = 60
     let buttonHeight: CGFloat = 35
-    let titleColor: UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1.0)
-    let buttonColor: UIColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1.0)
 
     var complete: ((_ view: UIView)->Void)?
     
