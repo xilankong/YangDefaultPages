@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YangDefaultPages'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of YangDefaultPages.'
 
   s.description      = <<-DESC
@@ -18,5 +18,4 @@ TODO: Add long description of the pod here.
   s.resource = 'YangDefaultPages/Assets/**/*'
 
   s.dependency 'FLAnimatedImage'
-  s.dependency 'SnapKit'
 end

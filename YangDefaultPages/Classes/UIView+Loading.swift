@@ -41,11 +41,7 @@ extension UIView {
         textLabel.font = UIFont.systemFont(ofSize: 15)
         textLabel.textAlignment = NSTextAlignment.center
         textLabel.textColor = titleColor
-        textLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(gifView.snp.bottom).offset(20)
-            make.leading.trailing.equalTo(self)
-            make.centerX.equalTo(self)
-        }
+        textLabel.frame = CGRect(x: 0, y: ViewH(gifView) + OriginY(gifView) + 20, width: ViewW(self), height: 30)
     }
     
     open func hideFullLoading() {

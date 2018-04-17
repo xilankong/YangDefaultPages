@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class YangDefaultPageView: UIView {
     
@@ -37,23 +36,14 @@ class YangDefaultPageView: UIView {
         
         imageView.image = image
         let imageScale = image.size.height / image.size.width
-        
-        imageView.snp.makeConstraints { (make) in
-            make.top.equalTo(self).offset(ViewH(self) * 0.1)
-            make.centerX.equalTo(self)
-            make.width.equalTo(ViewW(self))
-            make.height.equalTo(ViewW(self) * imageScale)
-        }
+        imageView.frame = CGRect(x: 0, y: ViewH(self) * 0.1, width: ViewW(self), height: ViewW(self) * imageScale)
         
         textLabel.text = text
         textLabel.font = UIFont.systemFont(ofSize: 15)
         textLabel.textAlignment = NSTextAlignment.center
         textLabel.textColor = titleColor
-        textLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(imageView.snp.bottom).offset(20)
-            make.leading.trailing.equalTo(self)
-            make.centerX.equalTo(self)
-        }
+        textLabel.frame = CGRect(x: 0, y: ViewH(imageView) + OriginY(imageView) + 20, width: ViewW(self), height: 30)
+
         guard let buttonText = buttonText, let _ = complete else { return  }
         self.complete = complete
 
@@ -65,12 +55,8 @@ class YangDefaultPageView: UIView {
         button.layer.masksToBounds = true
         
         let size = (buttonText as NSString).size(attributes: [NSFontAttributeName: button.titleLabel?.font ?? UIFont.systemFont(ofSize: 14.0)])
-        button.snp.makeConstraints { (make) in
-            make.top.equalTo(textLabel.snp.bottom).offset(20)
-            make.centerX.equalTo(self)
-            make.width.equalTo(size.width + buttonMargin)
-            make.height.equalTo(buttonHeight)
-        }
+        button.frame = CGRect(x: (ViewW(self) - size.width - buttonMargin) / 2.0, y: OriginY(textLabel) + ViewH(textLabel) + 20, width: size.width + buttonMargin, height: buttonHeight)
+        
         button.setTitle(buttonText, for: UIControlState.normal)
         button.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
     }

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SnapKit
 
 let scale: CGFloat = 2.0 / 3.0
 

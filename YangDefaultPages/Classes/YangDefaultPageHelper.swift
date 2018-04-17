@@ -29,3 +29,11 @@ public func ViewH(_ view: UIView) -> CGFloat {
 public func ViewW(_ view: UIView) -> CGFloat {
     return view.frame.size.width
 }
+
+public func OriginX(_ view: UIView) -> CGFloat {
+    return view.frame.origin.x
+}
+
+public func OriginY(_ view: UIView) -> CGFloat {
+    return view.frame.origin.y
+}

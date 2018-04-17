@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'YangDefaultPages_Example' do
   pod 'YangDefaultPages', :path => '../'
-
+  pod 'SnapKit'
   target 'YangDefaultPages_Tests' do
     inherit! :search_paths
 
