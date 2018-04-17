@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YangDefaultPages'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of YangDefaultPages.'
 
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/xilankong/YangDefaultPages'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xilankong' => '851384557@qq.com' }
+  s.author           = { 'xilankong' => 'xilankong@126.com' }
   s.source           = { :git => 'https://github.com/xilankong/YangDefaultPages.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'

@@ -17,9 +17,9 @@ pod 'YangDefaultPages'
 
 ## Author
 
-yang / 851384557@qq.com
+yang / xilankong@126.com
 
-# YangDefaultPages
+# VC、UITableView 常用缺省页
 
 Loading：
 
