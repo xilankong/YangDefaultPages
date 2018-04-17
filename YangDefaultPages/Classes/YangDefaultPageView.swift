@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import Foundation
 
 class YangDefaultPageView: UIView {
     
     let buttonMargin: CGFloat = 60
     let buttonHeight: CGFloat = 35
-
+    
     var complete: ((_ view: UIView)->Void)?
     
     let imageView: UIImageView = UIImageView()
@@ -43,10 +44,10 @@ class YangDefaultPageView: UIView {
         textLabel.textAlignment = NSTextAlignment.center
         textLabel.textColor = titleColor
         textLabel.frame = CGRect(x: 0, y: ViewH(imageView) + OriginY(imageView) + 20, width: ViewW(self), height: 30)
-
+        
         guard let buttonText = buttonText, let _ = complete else { return  }
         self.complete = complete
-
+        
         button.titleLabel?.font = UIFont.systemFont(ofSize: 14.0)
         button.backgroundColor = buttonColor
         button.setTitleColor(titleColor, for: UIControlState.normal)
@@ -54,15 +55,16 @@ class YangDefaultPageView: UIView {
         button.layer.cornerRadius = buttonHeight / 2.0
         button.layer.masksToBounds = true
         
-        let size = (buttonText as NSString).size(attributes: [NSFontAttributeName: button.titleLabel?.font ?? UIFont.systemFont(ofSize: 14.0)])
+        let size = (buttonText as NSString).size(withAttributes: [NSAttributedStringKey.font : button.titleLabel?.font ?? UIFont.systemFont(ofSize: 14.0)])
+        
         button.frame = CGRect(x: (ViewW(self) - size.width - buttonMargin) / 2.0, y: OriginY(textLabel) + ViewH(textLabel) + 20, width: size.width + buttonMargin, height: buttonHeight)
         
         button.setTitle(buttonText, for: UIControlState.normal)
         button.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
     }
-
+    
     //MARK: -  按钮事件
-    func buttonAction(){
+    @objc func buttonAction(){
         complete?(self)
     }
     
