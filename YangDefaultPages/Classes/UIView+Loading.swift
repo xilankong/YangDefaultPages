@@ -19,6 +19,7 @@ extension UIView {
         
         let gifBgView = UIView(frame: CGRect(x: 0, y: 0, width: ViewW(self), height: ViewH(self)))
         gifBgView.backgroundColor = UIColor.white
+        gifBgView.tag = _fullLoadingTag
         self.addSubview(gifBgView)
         
         let gifPath = defaultPageBundle.path(forResource: "301", ofType: "gif")

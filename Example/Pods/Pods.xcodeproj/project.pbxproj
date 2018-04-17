@@ -125,7 +125,7 @@
 /* Begin PBXFileReference section */
 		01AE5CD02061A6EBFE281E3B770173E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		03D8B34E334B2FE1EB50FC098E62541A /* Pods-YangDefaultPages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		048B6E59D1A1F1EAD80FE83073DC21D6 /* Pods_YangDefaultPages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangDefaultPages_Example.framework; path = "Pods-YangDefaultPages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048B6E59D1A1F1EAD80FE83073DC21D6 /* Pods_YangDefaultPages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangDefaultPages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		050E095E2F3D44322B15D407E67A9F12 /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
 		07173A5DC36D569FB2E6D3B0EF83940B /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		08A8716AFA93941523432D268B08E457 /* Pods-YangDefaultPages_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -141,14 +141,14 @@
 		2CADA035EFA6D782AC5B987F7B22EE4C /* nonetwork@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nonetwork@2x.png"; sourceTree = "<group>"; };
 		2E8556BDCF1EA8487E79DE588DAEEA20 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		2E9BC9E8D4801B1364E9065EFC4E63BE /* Pods-YangDefaultPages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2EAA03992823E7762BAA8518C4EDEB19 /* YangDefaultPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangDefaultPages.framework; path = YangDefaultPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FB5E6CC3B8BF402A8A275954BC1E2AB /* Pods-YangDefaultPages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YangDefaultPages_Tests.modulemap"; sourceTree = "<group>"; };
+		2EAA03992823E7762BAA8518C4EDEB19 /* YangDefaultPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangDefaultPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB5E6CC3B8BF402A8A275954BC1E2AB /* Pods-YangDefaultPages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YangDefaultPages_Tests.modulemap"; sourceTree = "<group>"; };
 		317B8A3CA53589B1D4BABC5F207D29B8 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		37DDD16B22EB0E921CD0CB0D40DAE9C0 /* YangDefaultPageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YangDefaultPageHelper.swift; sourceTree = "<group>"; };
 		38A6B75A2366BD8EA9DF4C4EF9A47149 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		390BC6DC3F88CDB47D546E2845ACBB4C /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		39E8C2273CB16ACA49335F79F3D173F1 /* Pods-YangDefaultPages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A53BC9070B0C6E01E2217E3D5E65DDF /* YangDefaultPages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YangDefaultPages.modulemap; sourceTree = "<group>"; };
+		3A53BC9070B0C6E01E2217E3D5E65DDF /* YangDefaultPages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YangDefaultPages.modulemap; sourceTree = "<group>"; };
 		3A9B4C21D155108373D23D152356C9E8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		3BDA9F4CA2CE0E13E83D72A64D6E7343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E6226591A947FD303C589115E20DC1E /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
@@ -157,14 +157,14 @@
 		462162E223BA6B28581BCA854F0EB25D /* 301.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = 301.gif; sourceTree = "<group>"; };
 		494044D985745E866E3F1C4F942E6C50 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		4A81F7671272E880249B4DBFB54131A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A9C931F1EC4E8B4C3B44493996CD312 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9C931F1EC4E8B4C3B44493996CD312 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACEE1BE8926AA67D7BF3A8B890C9917 /* Pods-YangDefaultPages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B1713CD897B70A73619ED9A21F1BD27 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		55900DFD4B6F1C27983FAB8B09DE4EB0 /* UIView+DefaultPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+DefaultPage.swift"; sourceTree = "<group>"; };
 		55BCE12272ABBC75DAFE9DC704AEA0EB /* Pods-YangDefaultPages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangDefaultPages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CDABBD4CA2E0ACB0661953C5AB06841 /* nonetwork@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nonetwork@3x.png"; sourceTree = "<group>"; };
 		655610A7D8C1AC363174F7AAA3BBD0EE /* Pods-YangDefaultPages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		707208A53F1A8CF03D317A6D2721CFBD /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707208A53F1A8CF03D317A6D2721CFBD /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712A44336F38A3BE567D088EAD28D6A2 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		7248475BF13417A5AC6BC28318801670 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		7341B4211A92B57519B1CCD0BB4B5E1B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		75917E432246093B7F243BEE1DB69D20 /* lost@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "lost@2x.png"; sourceTree = "<group>"; };
 		766E1A5199658AA9F7C27C960FE64F09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		784A271653EC825D13617D3F0EF89FD1 /* nodata@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nodata@3x.png"; sourceTree = "<group>"; };
-		78F5B8B00571BB74EAC191709F1F2AB8 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		78F5B8B00571BB74EAC191709F1F2AB8 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
 		79639AFE6388C3F303E831F36743A788 /* YangDefaultPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YangDefaultPageView.swift; sourceTree = "<group>"; };
 		802087AAD9298D3A55079ADEFEA29786 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		81FF49B39CFDC6C4CB610C71A86678E8 /* Pods-YangDefaultPages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangDefaultPages_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		8FB5829F1F21542BADE25B0153C38552 /* Pods-YangDefaultPages_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Tests-resources.sh"; sourceTree = "<group>"; };
 		90961C7DC75B754E312631FE1948A160 /* YangDefaultPages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangDefaultPages-dummy.m"; sourceTree = "<group>"; };
 		92942DA8E6520940D78D0EDDBF049E43 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C4CC240DB163136DFF0658A4634CE0 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		954EE97FF665C8D10E9DAFB28B5A12E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		99CF3B89679F757AFDAC8BF2526BE8DF /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
@@ -213,12 +213,12 @@
 		DB544BB65D65B95334018EC03968ACCD /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		DB75E46B63A906563994F0018699D697 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		DB81E3408D5F82777E202DB7CD42BE87 /* Pods-YangDefaultPages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangDefaultPages_Example-umbrella.h"; sourceTree = "<group>"; };
-		DC0777A436CC7AD716BB9A3E1D9D4155 /* Pods-YangDefaultPages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YangDefaultPages_Example.modulemap"; sourceTree = "<group>"; };
+		DC0777A436CC7AD716BB9A3E1D9D4155 /* Pods-YangDefaultPages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YangDefaultPages_Example.modulemap"; sourceTree = "<group>"; };
 		DC272A25CF72FDF46A5FDFEF8F811C30 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		E28D9A56701845E9AEF25D97FF4AD5A7 /* Pods_YangDefaultPages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangDefaultPages_Tests.framework; path = "Pods-YangDefaultPages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28D9A56701845E9AEF25D97FF4AD5A7 /* Pods_YangDefaultPages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangDefaultPages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C91F634737D24AD335CCA47CB77E21 /* YangDefaultPages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangDefaultPages-prefix.pch"; sourceTree = "<group>"; };
 		E6259B2F64317C1F8FAE3BF928615E5D /* Pods-YangDefaultPages_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Example-resources.sh"; sourceTree = "<group>"; };
-		E667D4BEA660A2EB622FB14DB9D543C7 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		E667D4BEA660A2EB622FB14DB9D543C7 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		E7FCDBB912F1144D726E78A8447ABD76 /* YangDefaultPages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangDefaultPages.xcconfig; sourceTree = "<group>"; };
 		F4956F51AFE4815126F17B2E3B4DD6CD /* UIView+Loading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Loading.swift"; sourceTree = "<group>"; };
 		F7679EB1E218024D477D1C8CBB274C89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -340,7 +340,6 @@
 				FFCEBDE2C58A4D2EB581568533614D7A /* FLAnimatedImageView.m */,
 				131EDCEF29C7ECDE3DDE396C067AF187 /* Support Files */,
 			);
-			name = FLAnimatedImage;
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
@@ -403,7 +402,6 @@
 				0E39380C8D61B4B03B060051F08F801B /* UILayoutSupport+Extensions.swift */,
 				CD8B793F1676E843683650053417C5D6 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -412,7 +410,6 @@
 			children = (
 				A58AF3A408FEA688A2EF4CCA02BA9C13 /* Assets */,
 			);
-			name = YangDefaultPages;
 			path = YangDefaultPages;
 			sourceTree = "<group>";
 		};
@@ -455,7 +452,6 @@
 				2CADA035EFA6D782AC5B987F7B22EE4C /* nonetwork@2x.png */,
 				5CDABBD4CA2E0ACB0661953C5AB06841 /* nonetwork@3x.png */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -475,7 +471,6 @@
 			children = (
 				FE5364F4D7A71590F7996ED60A641177 /* Classes */,
 			);
-			name = YangDefaultPages;
 			path = YangDefaultPages;
 			sourceTree = "<group>";
 		};
@@ -544,14 +539,13 @@
 		FE5364F4D7A71590F7996ED60A641177 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37DDD16B22EB0E921CD0CB0D40DAE9C0 /* YangDefaultPageHelper.swift */,
 				55900DFD4B6F1C27983FAB8B09DE4EB0 /* UIView+DefaultPage.swift */,
 				F4956F51AFE4815126F17B2E3B4DD6CD /* UIView+Loading.swift */,
 				112F7388FD50A595F13C545B864C96A9 /* UIViewController+DefaultPage.swift */,
 				1FB612EC15F04D5AA66B0EE274F19485 /* UIViewController+Loading.swift */,
-				37DDD16B22EB0E921CD0CB0D40DAE9C0 /* YangDefaultPageHelper.swift */,
 				79639AFE6388C3F303E831F36743A788 /* YangDefaultPageView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};

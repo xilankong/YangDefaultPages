@@ -56,4 +56,9 @@ extension UIViewController {
     open func showlostedPage(withOffset offset: CGFloat) {
         self.view.showlostedPage(withOffset: offset, complete: nil)
     }
+    
+    /// 去除缺省页
+    open func hideDefaultPage() {
+        self.view.hideDefaultPage()
+    }
 }

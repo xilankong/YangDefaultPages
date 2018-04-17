@@ -9,14 +9,15 @@ import UIKit
 import SnapKit
 
 class YangDefaultPageView: UIView {
+    
     let buttonMargin: CGFloat = 60
     let buttonHeight: CGFloat = 35
 
     var complete: ((_ view: UIView)->Void)?
     
-    var imageView: UIImageView!
-    var textLabel: UILabel!
-    var button: UIButton?
+    let imageView: UIImageView = UIImageView()
+    let textLabel: UILabel = UILabel()
+    let button: UIButton = UIButton(type: UIButtonType.custom)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,10 +29,15 @@ class YangDefaultPageView: UIView {
     
     convenience init(withFrame frame: CGRect, image: UIImage, text: String, buttonText: String?, complete: ((_ view: UIView)->Void)?) {
         self.init(frame: frame)
+        
         self.backgroundColor = bgColor
-        imageView = UIImageView(image: image)
         self.addSubview(imageView)
+        self.addSubview(textLabel)
+        self.addSubview(button)
+        
+        imageView.image = image
         let imageScale = image.size.height / image.size.width
+        
         imageView.snp.makeConstraints { (make) in
             make.top.equalTo(self).offset(ViewH(self) * 0.1)
             make.centerX.equalTo(self)
@@ -39,8 +45,6 @@ class YangDefaultPageView: UIView {
             make.height.equalTo(ViewW(self) * imageScale)
         }
         
-        textLabel = UILabel()
-        self.addSubview(textLabel)
         textLabel.text = text
         textLabel.font = UIFont.systemFont(ofSize: 15)
         textLabel.textAlignment = NSTextAlignment.center
@@ -52,7 +56,6 @@ class YangDefaultPageView: UIView {
         }
         guard let buttonText = buttonText, let _ = complete else { return  }
         self.complete = complete
-        let button = UIButton(type: UIButtonType.custom)
 
         button.titleLabel?.font = UIFont.systemFont(ofSize: 14.0)
         button.backgroundColor = buttonColor
@@ -60,7 +63,6 @@ class YangDefaultPageView: UIView {
         button.setTitleColor(titleColor, for: UIControlState.selected)
         button.layer.cornerRadius = buttonHeight / 2.0
         button.layer.masksToBounds = true
-        self.addSubview(button)
         
         let size = (buttonText as NSString).size(attributes: [NSFontAttributeName: button.titleLabel?.font ?? UIFont.systemFont(ofSize: 14.0)])
         button.snp.makeConstraints { (make) in
@@ -71,7 +73,6 @@ class YangDefaultPageView: UIView {
         }
         button.setTitle(buttonText, for: UIControlState.normal)
         button.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
-        self.button = button
     }
 
     //MARK: -  按钮事件

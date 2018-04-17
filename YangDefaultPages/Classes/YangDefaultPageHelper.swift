@@ -14,6 +14,8 @@ let losted = "页面丢失，迷路中~"
 let loading = "加载中~"
 
 let _fullLoadingTag = 9999999
+let _fullDefaultTag = 9999998
+
 let _imageScale = 494.0 / 658.0
 let bgColor: UIColor = UIColor.white
 let titleColor: UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1.0)

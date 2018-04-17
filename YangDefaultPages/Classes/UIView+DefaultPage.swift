@@ -39,8 +39,15 @@ extension UIView {
     ///   - buttonText: 按钮文案，如果有
     ///   - offset: Y轴偏移量
     ///   - complete: 按钮回调，如果有
-    open func showDefaultPage(withImage image: UIImage, text: String, buttonText: String?, offset: CGFloat, complete: ((_ view: UIView)->Void)?) {
+    open func showDefaultPage(withImage image: UIImage, text: String, buttonText: String?, offset: CGFloat = 0, complete: ((_ view: UIView)->Void)?) {
+        
+        let oldView = self.viewWithTag(_fullDefaultTag)
+        if oldView != nil {
+            oldView?.removeFromSuperview()
+        }
+
         let defaultView = YangDefaultPageView(withFrame:CGRect(x: 0, y: offset, width: ViewW(self), height: ViewH(self)), image: image, text: text, buttonText: buttonText, complete: complete)
+        defaultView.tag = _fullDefaultTag
         defaultView.backgroundColor = bgColor
         self.addSubview(defaultView)
     }
@@ -50,14 +57,14 @@ extension UIView {
     /// - Parameters:
     ///   - offset: Y轴偏移量
     ///   - complete: 刷新回调
-    func showNoNetworkPage(withOffset offset: CGFloat, complete: ((_ view: UIView)->Void)?) {
+    open func showNoNetworkPage(withOffset offset: CGFloat = 0, complete: ((_ view: UIView)->Void)?) {
         self.showDefaultPage(withImage: UIImage(named: "nonetwork", in: defaultPageBundle, compatibleWith: nil)!, text: nonetwork, buttonText: "刷新", offset: offset, complete: complete)
     }
     
     /// 无数据缺省页
     ///
     /// - Parameter offset: Y轴偏移量
-    func showNoDataPage(withOffset offset: CGFloat) {
+    open func showNoDataPage(withOffset offset: CGFloat = 0) {
         self.showDefaultPage(withImage: UIImage(named: "nodata", in: defaultPageBundle, compatibleWith: nil)!, text: nodata, buttonText: nil, offset: offset, complete: nil)
     }
     
@@ -66,7 +73,7 @@ extension UIView {
     /// - Parameters:
     ///   - offset: Y轴偏移量
     ///   - complete: 重试回调
-    func showFailedPage(withOffset offset: CGFloat, complete: ((_ view: UIView)->Void)?) {
+    open func showFailedPage(withOffset offset: CGFloat = 0, complete: ((_ view: UIView)->Void)?) {
         self.showDefaultPage(withImage: UIImage(named: "failed", in: defaultPageBundle, compatibleWith: nil)!, text: failed, buttonText: "重试", offset: offset, complete: complete)
     }
     
@@ -75,7 +82,16 @@ extension UIView {
     /// - Parameters:
     ///   - offset: Y轴偏移量
     ///   - complete: 刷新回调
-    func showlostedPage(withOffset offset: CGFloat, complete: ((_ view: UIView)->Void)?) {
+    open func showlostedPage(withOffset offset: CGFloat = 0, complete: ((_ view: UIView)->Void)?) {
         self.showDefaultPage(withImage: UIImage(named: "lost", in: defaultPageBundle, compatibleWith: nil)!, text: losted, buttonText: "刷新", offset: offset, complete: complete)
+    }
+    
+    
+    /// 去除缺省页
+    open func hideDefaultPage() {
+        let oldView = self.viewWithTag(_fullDefaultTag)
+        if oldView != nil {
+            oldView?.removeFromSuperview()
+        }
     }
 }
