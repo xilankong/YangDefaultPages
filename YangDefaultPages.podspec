@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YangDefaultPages'
-  s.version          = '1.9.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of YangDefaultPages.'
 
   s.description      = <<-DESC
@@ -16,6 +16,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YangDefaultPages/Classes/**/*'
   s.resource = 'YangDefaultPages/Assets/**/*'
-
+    s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.1" }
   s.dependency 'FLAnimatedImage'
 end

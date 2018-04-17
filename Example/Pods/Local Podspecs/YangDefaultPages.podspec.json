@@ -1,6 +1,6 @@
 {
   "name": "YangDefaultPages",
-  "version": "1.6.0",
+  "version": "1.9.0",
   "summary": "A short description of YangDefaultPages.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xilankong/YangDefaultPages",
@@ -13,13 +13,16 @@
   },
   "source": {
     "git": "https://github.com/xilankong/YangDefaultPages.git",
-    "tag": "1.6.0"
+    "tag": "1.9.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "YangDefaultPages/Classes/**/*",
   "resources": "YangDefaultPages/Assets/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  },
   "dependencies": {
     "FLAnimatedImage": [
 
