@@ -1,7 +1,7 @@
 PODS:
   - FLAnimatedImage (1.0.12)
   - SnapKit (4.0.0)
-  - YangDefaultPages (1.1.0):
+  - YangDefaultPages (1.4.0):
     - FLAnimatedImage
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  YangDefaultPages: 002a79c9651d3c58f9df0e30e70ae3a4951d022a
+  YangDefaultPages: a4df3bcf6d4b7e826f2b08a4db20d791b302e273
 
 PODFILE CHECKSUM: dd9ab1b40b0df7970c7dc9e617929873bdb2a4b7
 
