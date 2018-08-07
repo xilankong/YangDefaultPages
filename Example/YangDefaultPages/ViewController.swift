@@ -12,7 +12,7 @@ import SnapKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let data = ["VC加载中", "VC无数据页面", "VC失败页面",  "VC带按钮刷新缺省页", "Table加载中","Table缺省页面"]
+    let data = ["VC加载中", "VC无数据页面", "VC失败页面",  "VC带按钮刷新缺省页", "Table加载中","Table缺省页面","Table缺省页面自定义图片"]
     
     let tableView = UITableView()
 
@@ -66,6 +66,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         case 5:
             self.tableView.showNoDataPage()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                self.tableView.hideDefaultPage()
+            }
+        case 6:
+            self.tableView.showDefaultPage(withImage: #imageLiteral(resourceName: "nonetwork"), text: "暂无网络")
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self.tableView.hideDefaultPage()
             }

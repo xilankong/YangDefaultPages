@@ -10,6 +10,7 @@ import FLAnimatedImage
 
 extension UIView {
     
+    /// 显示控制器loading，view
     open func showFullLoading() {
         
         let oldLoading = self.viewWithTag(_fullLoadingTag)
@@ -44,6 +45,7 @@ extension UIView {
         textLabel.frame = CGRect(x: 0, y: ViewH(gifView) + OriginY(gifView) + 20, width: ViewW(self), height: 30)
     }
     
+    /// 隐藏控制器loading，view
     open func hideFullLoading() {
         let oldLoading = self.viewWithTag(_fullLoadingTag)
         if oldLoading != nil {

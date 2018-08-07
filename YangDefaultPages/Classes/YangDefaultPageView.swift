@@ -14,8 +14,8 @@ class YangDefaultPageView: UIView {
     
     var complete: ((_ view: UIView)->Void)?
     
-    let imageView: UIImageView = UIImageView()
     let textLabel: UILabel = UILabel()
+    let imageView: UIImageView = UIImageView()
     let button: UIButton = UIButton(type: UIButtonType.custom)
     
     override init(frame: CGRect) {
@@ -26,6 +26,14 @@ class YangDefaultPageView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    /// 初始化器
+    ///
+    /// - Parameters:
+    ///   - frame: frame
+    ///   - image: 图片
+    ///   - text: 文案
+    ///   - buttonText: 按钮文案
+    ///   - complete: 回调
     convenience init(withFrame frame: CGRect, image: UIImage, text: String, buttonText: String?, complete: ((_ view: UIView)->Void)?) {
         self.init(frame: frame)
         
@@ -36,8 +44,18 @@ class YangDefaultPageView: UIView {
         
         imageView.image = image
         let imageScale = image.size.height / image.size.width
-        imageView.frame = CGRect(x: 0, y: ViewH(self) * 0.1, width: ViewW(self), height: ViewW(self) * imageScale)
         
+        //根据图片调整
+        var imageViewWidth = image.size.width > ViewW(self) ? ViewW(self) : image.size.width
+        var imageViewHeight = imageViewWidth * imageScale
+        
+        if imageViewHeight > (ViewH(self) / 3.0) {
+            imageViewHeight = (ViewH(self) / 3.0)
+            imageViewWidth = imageViewHeight / imageScale
+        }
+            
+        imageView.frame = CGRect(x: 0, y: ViewH(self) * 0.1, width: imageViewWidth, height: imageViewHeight)
+        imageView.center = CGPoint(x: ViewW(self) / 2.0, y: ViewH(self) / 3.0)
         textLabel.text = text
         textLabel.font = UIFont.systemFont(ofSize: 15)
         textLabel.textAlignment = NSTextAlignment.center

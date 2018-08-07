@@ -117,7 +117,7 @@
 
 /* Begin PBXFileReference section */
 		0425F0D74A7572540BB38AC5D1D06E48 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		048B6E59D1A1F1EAD80FE83073DC21D6 /* Pods_YangDefaultPages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangDefaultPages_Example.framework; path = "Pods-YangDefaultPages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048B6E59D1A1F1EAD80FE83073DC21D6 /* Pods_YangDefaultPages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangDefaultPages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AF6808D1ED0E2F8D7C94C8BADC3F66 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		112F7388FD50A595F13C545B864C96A9 /* UIViewController+DefaultPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+DefaultPage.swift"; sourceTree = "<group>"; };
 		1157477EABAC19FF950230732AD3DE74 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		2CADA035EFA6D782AC5B987F7B22EE4C /* nonetwork@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nonetwork@2x.png"; sourceTree = "<group>"; };
 		2DE31FDE4E99029D2E31BA69CAD57C07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E15B6AC7CA30262979D6F090678188B /* Pods-YangDefaultPages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2EAA03992823E7762BAA8518C4EDEB19 /* YangDefaultPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangDefaultPages.framework; path = YangDefaultPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAA03992823E7762BAA8518C4EDEB19 /* YangDefaultPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangDefaultPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBA51937276CF5614F424FA44D2E011 /* Pods-YangDefaultPages_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Example-resources.sh"; sourceTree = "<group>"; };
 		30CE08E763AAEC23296B708861AD29D3 /* Pods-YangDefaultPages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3383C72FBC0A49ADEE95CC70D8989A0F /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		462162E223BA6B28581BCA854F0EB25D /* 301.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = 301.gif; sourceTree = "<group>"; };
 		4698DA475C596302464A91D7DA6C6F5D /* YangDefaultPages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangDefaultPages.modulemap; sourceTree = "<group>"; };
 		49803C9F82E476D45207D4677C63CF91 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
-		4A9C931F1EC4E8B4C3B44493996CD312 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9C931F1EC4E8B4C3B44493996CD312 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5032C2EFEBBF0356B6A1F6E3DC66D912 /* Pods-YangDefaultPages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangDefaultPages_Example.modulemap"; sourceTree = "<group>"; };
 		50E3ECB5DCB5FAC83C517AC840B78CF9 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		5201D2BDBD20A5F0F630623A55E80256 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		6977FBAF2880107D54322DAADD5941A6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		6CB0A8EFC593B2A580FA4D96BE86ABEC /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		6D463E28D0724C612D2B55B393D8AF42 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
-		707208A53F1A8CF03D317A6D2721CFBD /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707208A53F1A8CF03D317A6D2721CFBD /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75917E432246093B7F243BEE1DB69D20 /* lost@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "lost@2x.png"; sourceTree = "<group>"; };
 		784A271653EC825D13617D3F0EF89FD1 /* nodata@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nodata@3x.png"; sourceTree = "<group>"; };
 		78D873EBBD7390643E5AF68AA265B8F0 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		8F50A8AD27994D09B1AA5333006D9175 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		91911167A7FFBEEFA768A080C0878182 /* Pods-YangDefaultPages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangDefaultPages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		928A11A3A3F04679CA9CB3B00A8C6F54 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94038439501BD1007780CC589D845B75 /* Pods-YangDefaultPages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangDefaultPages_Example-umbrella.h"; sourceTree = "<group>"; };
 		9B18F3407EB404B830ADA154C93457E3 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		9BBB67F95BF7004FB8C8C3616D765AE8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
@@ -212,7 +212,7 @@
 		DE644D039E1AD431C2DDBE657CEAD489 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		DEAD581F50006A27E26F039494AF6DC8 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		DFB42FF76220A046E0910CF6FC5A4B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E28D9A56701845E9AEF25D97FF4AD5A7 /* Pods_YangDefaultPages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangDefaultPages_Tests.framework; path = "Pods-YangDefaultPages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28D9A56701845E9AEF25D97FF4AD5A7 /* Pods_YangDefaultPages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangDefaultPages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42339E963986712812468584244D223 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		E63617C08C379569C73542C89B9FAE89 /* Pods-YangDefaultPages_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangDefaultPages_Tests-resources.sh"; sourceTree = "<group>"; };
 		E6F6A0942BABEF801AEF9E2D87A30D3A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
@@ -281,7 +281,6 @@
 				49803C9F82E476D45207D4677C63CF91 /* FLAnimatedImageView.m */,
 				9DDB1C75D595E0C16FE923B7DBFEC065 /* Support Files */,
 			);
-			name = FLAnimatedImage;
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
@@ -373,7 +372,6 @@
 			children = (
 				A58AF3A408FEA688A2EF4CCA02BA9C13 /* Assets */,
 			);
-			name = YangDefaultPages;
 			path = YangDefaultPages;
 			sourceTree = "<group>";
 		};
@@ -418,7 +416,6 @@
 				2CADA035EFA6D782AC5B987F7B22EE4C /* nonetwork@2x.png */,
 				5CDABBD4CA2E0ACB0661953C5AB06841 /* nonetwork@3x.png */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -452,7 +449,6 @@
 			children = (
 				FE5364F4D7A71590F7996ED60A641177 /* Classes */,
 			);
-			name = YangDefaultPages;
 			path = YangDefaultPages;
 			sourceTree = "<group>";
 		};
@@ -495,7 +491,6 @@
 				78D873EBBD7390643E5AF68AA265B8F0 /* UILayoutSupport+Extensions.swift */,
 				45EC0CECAB5716BD7E7A713C93410D8C /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -536,14 +531,13 @@
 		FE5364F4D7A71590F7996ED60A641177 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				55900DFD4B6F1C27983FAB8B09DE4EB0 /* UIView+DefaultPage.swift */,
-				F4956F51AFE4815126F17B2E3B4DD6CD /* UIView+Loading.swift */,
-				112F7388FD50A595F13C545B864C96A9 /* UIViewController+DefaultPage.swift */,
-				1FB612EC15F04D5AA66B0EE274F19485 /* UIViewController+Loading.swift */,
 				37DDD16B22EB0E921CD0CB0D40DAE9C0 /* YangDefaultPageHelper.swift */,
+				F4956F51AFE4815126F17B2E3B4DD6CD /* UIView+Loading.swift */,
+				55900DFD4B6F1C27983FAB8B09DE4EB0 /* UIView+DefaultPage.swift */,
 				79639AFE6388C3F303E831F36743A788 /* YangDefaultPageView.swift */,
+				1FB612EC15F04D5AA66B0EE274F19485 /* UIViewController+Loading.swift */,
+				112F7388FD50A595F13C545B864C96A9 /* UIViewController+DefaultPage.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
